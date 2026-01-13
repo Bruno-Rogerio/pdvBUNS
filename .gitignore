@@ -1,0 +1,23 @@
+# Dependências
+node_modules/
+
+# Banco de dados (dados da loja)
+*.db
+*.sqlite
+*.sqlite3
+
+# Arquivos de build
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/

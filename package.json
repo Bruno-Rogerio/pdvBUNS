@@ -1,0 +1,26 @@
+{
+  "name": "pdv-simples",
+  "version": "1.0.0",
+  "description": "Sistema PDV com impressão térmica 58mm",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "keywords": [
+    "pdv",
+    "pos",
+    "thermal-printer"
+  ],
+  "author": "Raiza",
+  "license": "MIT",
+  "dependencies": {
+    "electron": "^28.0.0",
+    "node-thermal-printer": "^4.4.4",
+    "printer": "^0.4.0",
+    "sqlite3": "^5.1.6"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.9"
+  }
+}
